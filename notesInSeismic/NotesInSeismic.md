@@ -1,11 +1,11 @@
 ---
-title: LectureNotesSPMI
+title: NotesInSeismic
 layout: default
 has_children: true
 nav_order: 1
 ---
 
-# Конспекты к курсу по сейсморазведке
+# Интересные примеры, странная интепретация
 
 You specify the layout for a page in its [front matter]. Just the Docs has a `default` layout with a sidebar, used for almost all pages in the theme docs, and a `minimal` layout that omits the sidebar.
 {: .fs-6 .fw-300 }
