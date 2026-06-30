@@ -1,6 +1,7 @@
 ---
 title: PhaseJump 
 layout: default
+parent: NotesInSeismic
 nav_order: 2
 ---
 
