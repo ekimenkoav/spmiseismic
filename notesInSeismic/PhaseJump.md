@@ -3,6 +3,7 @@ title: PhaseJump
 layout: default
 parent: NotesInSeismic
 nav_order: 2
++ cover: /img/PhaseJump_imgCover.jpg
 ---
 # Надо ли перепрыгивать с одной фазы на другую
 Прослеживание отражающих горизонтов по кубам и разрезам сейсмических данных является одним из основных этапов интерпретации.
