@@ -5,31 +5,39 @@ layout: home
 
 На этом сайте собраны заметки относящиеся к занятиям по сейсморазведке для студентов пятого курса Горного Инстиута и некоторые функции на языке программирования Wolfram language.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Студентам групп РФС кафедры геофизики читается дисциплина "Цифровые технологии интерпретации данных ГИС и сейсморазведки"
 
-More specifically, the created site:
+* **Раздел 1. Основные этапы  интерпретации. Свойства горных пород. Типы данных**
+1.1	Задачи и основные этапы комплексной интерпретации сейсмических и скважинных данных.
+1.2	Общие сведения о методиках полевых набюлюдений и проектирование сейсморазведочных работ
+1.3	Координатные системы и работа с пространственно-распределёнными данными
+1.4	Работа с координатами
+1.5	Методы ГИС и оценка свойств горных пород. ВСП.
+1.6	Корреляция разрезов скважин
+1.7 Сейсмостратиграфическая привязка индентификация отражений
+1.8	Одномерное моделирование
+***
+* **Раздел 2. Кинематическая интерпретация**
+  Корреляция волн, идентификация отражений, признаки разрывных нарушений в воонвом поле
+просоедживание ортраденных волн по сейсмчиким разерзам, трассирование нарушений
+  Модели скоростей.
+построение интепратционых моделей прогноза глубины. Расчёт карт по методам: IDW и сплайн
+Анализ структурных карт и карт толщин 
+* **Раздел 3 Динамическая интерпретация**
+  Динамические харарактристики отражённых волн. Мгновенные атрибуты. Классифкация.
+  Динамические признаки и атрибуты воновго поля в зоне разрывных нарушений
+ AVO анализ и инверсия
+* **Раздел 3 Прогноз свойсв среды и модели залежей**
+ Статисчетиский анализ анализ данных в геологии исполоьлзование методов прогноа
+  Залежи углеводородов и их обнаружение по матриалм сейсмозавекдка. Особеннностьи волновго поля для разнвх типов гелогиского разреза
+построение модели залежи
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+***
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+В общем можно разделить всю учебную программу на четыре блока: 
+* собсвенно занятия по интерпретации (включая лекции и практические занятия), 
+* выполнение самостоятельных работ, 
+* факультативные занятия по основам программирования (**Wolfram Language**) [Wolfram Research](https://www.wolfram.com)
+* навыки работы в ПО **тНавигатор** (**модуль Сейсмика**) [Рок Флоу Динамикс](https://rfdyn.ru/modules/sejsmika/)
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
 
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
