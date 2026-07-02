@@ -5,6 +5,9 @@ has_children: true
 nav_order: 1
 ---
 
+Wolfram
+{: .label .label-red }
+
 #  «Основы эффективного использования Wolfram Language и работы в Wolfram Mathematica»
 Материал подготвлен в соавторстве с [Беловым Кириллом](https://github.com/KirillBelovTest.html)
 
